@@ -1,0 +1,35 @@
+{
+  "name": "xcdn",
+  "version": "1.0.0",
+  "description": "xCDN parser and serializer for JavaScript",
+  "main": "src/index.js",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./ast": "./src/ast.js",
+    "./error": "./src/error.js",
+    "./lexer": "./src/lexer.js",
+    "./parser": "./src/parser.js",
+    "./serializer": "./src/serializer.js"
+  },
+  "scripts": {
+    "test": "node --test tests/"
+  },
+  "keywords": [
+    "xcdn",
+    "parser",
+    "serializer",
+    "data-format"
+  ],
+  "author": "GioeleSLFierro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gslf/xCDN-JavaScript.git"
+  },
+  "files": [
+    "src/",
+    "LICENSE",
+    "README.md"
+  ],
+  "license": "MIT"
+}
